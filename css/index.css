@@ -1,0 +1,34 @@
+
+.head{
+    height: 300px;
+    background-color: bisque;
+    /* background-image: url(sourav.JPG); */
+    background-image: url(../image/sourav.JPG);
+    background-size: cover;
+}
+
+.blog{
+    border: 20px solid greenyellow; 
+    margin: 20px;
+    padding: 20px 50px 30px;
+   
+
+}
+.font{
+    text-decoration: underline;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color: #2b819b;
+}
+#sk{
+    color: #a20a0a;
+}
+#footer{
+    font-weight: bold;
+    text-align: center;
+    text-align: justify;
+    font-size: larger;
+    color: #e12a2a;
+    text-decoration-line: underline;
+}
