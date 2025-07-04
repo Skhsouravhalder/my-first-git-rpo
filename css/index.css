@@ -4,14 +4,16 @@
     background-color: bisque;
     /* background-image: url(sourav.JPG); */
     background-image: url(../image/sourav.JPG);
-    background-size: cover;
+    background-size: contain;
 }
 
 .blog{
-    border: 20px solid greenyellow; 
+    /* border: 20px solid greenyellow;  */
     margin: 20px;
-    padding: 20px 50px 30px;
-   
+    padding: 20px 80px 30px;
+   width: 150px;
+   height:10px ;
+   display: inline-block;
 
 }
 .font{
@@ -24,11 +26,16 @@
 #sk{
     color: #a20a0a;
 }
-#footer{
-    font-weight: bold;
+.do{
     text-align: center;
-    text-align: justify;
     font-size: larger;
-    color: #e12a2a;
-    text-decoration-line: underline;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(25, 149, 108);
+}
+#footer{
+    display: block;
+    margin-top: 0%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }

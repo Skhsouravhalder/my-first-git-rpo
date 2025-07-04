@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Property Practice</title>
+  <style>
+    .block-example {
+      display: block;
+      background-color: lightblue;
+      margin: 10px 0;
+      padding: 10px;
+    }
+
+    .inline-example span {
+      display: inline;
+      background-color: yellow;
+      margin: 5px;
+    }
+
+    .inline-block-example div {
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      background-color: orange;
+      margin: 5px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    .none-example {
+      display: none;
+    }
+
+    .flex-example {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .flex-example div {
+      width: 60px;
+      height: 60px;
+      background-color: lightgreen;
+      text-align: center;
+      line-height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>1. Block Example</h2>
+  <div class="block-example">আমি ব্লক এলিমেন্ট</div>
+  <div class="block-example">আরেকটা ব্লক এলিমেন্ট</div>
+
+  <h2>2. Inline Example</h2>
+  <div class="inline-example">
+    <span>Inline ১</span>
+    <span>Inline ২</span>
+    <span>Inline ৩</span>
+  </div>
+
+  <h2>3. Inline-Block Example</h2>
+  <div class="inline-block-example">
+    <div>Box 1</div>
+    <div>Box 2</div>
+    <div>Box 3</div>
+  </div>
+
+  <h2>4. None Example</h2>
+  <p>এইটা দেখা যাবে:</p>
+  <p class="none-example">এইটা দেখা যাবে না (display: none)</p>
+
+  <h2>5. Flex Example</h2>
+  <div class="flex-example">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+</body>
+</html>
